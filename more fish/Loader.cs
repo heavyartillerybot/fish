@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace WinchModTemplate
+namespace more fish
 {
 	public class Loader
 	{
@@ -9,8 +9,8 @@ namespace WinchModTemplate
 		/// </summary>
 		public static void Initialize()
 		{
-			var gameObject = new GameObject(nameof(WinchModTemplate));
-			gameObject.AddComponent<WinchModTemplate>();
+			var gameObject = new GameObject(nameof(more fish));
+			gameObject.AddComponent<more fish>();
 			GameObject.DontDestroyOnLoad(gameObject);
 		}
 	}

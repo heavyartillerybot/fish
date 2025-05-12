@@ -1,0 +1,9 @@
+{
+	"Author": "heavyartillerybot",
+	"Name": "Winch Mod Template",
+	"ModGUID": "heavyartillerybot.more fish",
+	"Version": "0.0.1",
+	"ModAssembly": "more fish.dll",
+	"MinWinchVersion": "0.4.0",
+	"Entrypoint": "more fish.Loader/Initialize"
+}
